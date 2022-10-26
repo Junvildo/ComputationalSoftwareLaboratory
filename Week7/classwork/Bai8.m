@@ -1,0 +1,9 @@
+x=-10:.1:10;
+y1=exp(-1.*x.^2);
+y2=exp(-1.*(x.^2+x.^2));
+subplot(2,1,1);
+plot(x,y1);
+title('e^{-x^{2}}');
+subplot(2,1,2);
+plot(x,y2);
+title('e^{-(x^{2}+y^{2})}');

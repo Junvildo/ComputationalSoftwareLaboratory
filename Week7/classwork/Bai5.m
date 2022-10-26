@@ -19,4 +19,4 @@ figure
 plot(x,f1);
 hold on
 plot(x,f2);
-legend("f'1=3x^{2}-3","f'2=6x");
+legend('f1=3x^{2}-3','f2=6x');
